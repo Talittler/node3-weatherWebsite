@@ -1,0 +1,66 @@
+h1{
+	color: grey;
+	font-size: 64px;
+	margin-bottom: 16px;
+}
+
+img{
+	width: 250px;
+}
+
+body {
+	color: #333333;
+	font-family: arial;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 16px;
+
+
+	/*flex box style*/
+	display: flex;
+	flex-direction: column; /*row means everything left to right, column means top to bottom*/
+
+	min-height: 100vh; /*100% of ViewportHeight to take up entire height of page*/
+}
+
+.main-content{
+	flex-grow: 1; /* this means this element should take up all leftover space*/
+}
+
+footer{
+	background: white;
+	padding: 16px 0 ; /* puts space between the content inside the box and the edge of the box*/
+	margin: ;/*puts space between this element and other elements. So outside the box*/
+	border-top: 1px solid #eeeeee; /*creates a border with a colour and thickness */
+	margin-top: 16px;
+	
+}
+
+header{
+	margin-top: 16px;
+	margin-bottom: 48px;
+}
+
+header a{	/* targets links inside the header*/
+	color: 888888;
+	margin-right: 16px;
+	text-decoration: none;
+
+}
+
+.imgRobot{
+	width: 120px;
+}
+
+input{
+	border: 1px solid #cccccc;
+	padding: 8px;
+}
+
+button{
+	cursor: pointer;
+	border: 1px solid #888888;
+	background: #888888;
+	color: white;
+	padding: 8px;
+}
